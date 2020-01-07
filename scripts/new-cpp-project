@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+PROJECT_PATH=$1
+PROJECT_NAME=$(basename $PROJECT_PATH)
+
+mkdir $PROJECT_PATH
+cp -r $(dirname $0)/../* $PROJECT_PATH
+sed -i "s/project(cpp_starter_template)/project(${PROJECT_NAME})/g" "${PROJECT_PATH}/CMakeLists.txt"
