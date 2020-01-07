@@ -1,9 +1,11 @@
 # Modern c++20 starter template using Hunter
 
 This project uses hunter as a package manager
+
 See https://github.com/ruslo/hunter
 
 And catch2 as unit testing library
+
 See https://github.com/catchorg/Catch2
 
 ## Project Structure
