@@ -40,3 +40,6 @@ This creates a new cmake project
 * Library (eg ExampleProject-lib)
 * Executable (eg ExampleProject)
 * Unit tests (eg ExampleProject-test)
+
+## IDE
+I recommend using a CMake-based IDE like CLion from Jetbrains or similiar products to automatically build and run this project
